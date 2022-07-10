@@ -1,0 +1,105 @@
+/* Global styles and settings */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  /* UI Library Theme */
+  --primary: #489fb5;
+  --secondary: #ee8434;
+
+
+}
+
+.page-content {
+  padding-top: 4em;
+  padding-left: 300px;
+  padding-right: 2vw;
+}
+
+
+/* Side Panel Styles */
+
+.logo-wrapper {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1.5em 1em;
+  height: 5em;
+  width: 100%;
+  color: #489FB5;
+}
+
+.logo-icon-wrapper {
+  height: 2em !important;
+  width: 20%;
+  float: left;
+}
+
+.logo-icon {
+  font-size: 2.5em;
+}
+
+.logo-text {
+  font-size: 2.1em;
+  line-height: 1.3;
+  float: left;
+  width: 80%;
+}
+
+.side-panel-wrapper {
+    margin-top: -18px !important;
+    float: left !important;
+    width: 300px;
+    background: transparent !important;
+}
+
+.side-panel {
+    height: 100vh !important;
+}
+
+/* User Table */
+
+.clickable:hover {
+  background: rgba(72, 159, 181, 0.05) !important;
+  cursor: pointer;
+}
+
+.new-user-row {
+  text-align: center;
+}
+
+.add-user-text-field {
+  width: 30% !important;
+  overflow: hidden;
+}
+
+.add-user-button-wrapper {
+  padding-top: 2.5em !important;
+}
+
+.refresh-button {
+  float: right !important;
+}
+
+/* Challenges Index Page */
+.progress-bar, .bg-primarry {
+  background-color: #489fb5 !important;
+}
+
+.progress {
+  height: 1rem;
+}
+
+/* Index Page */
+
+.center-text {
+    text-align: center;
+}
+
+.quick-stat-number {
+  font-size: 5em;
+  text-align: center;
+  padding: 0.5em;
+}
